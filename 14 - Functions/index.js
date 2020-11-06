@@ -21,7 +21,7 @@ sum(4, 2);
 
 // Funções podem retornar valores
 function myData(age, height) {
-  return data = {
+  return result = {
     age,
     height
   }
@@ -32,3 +32,5 @@ const height = 187;
 
 const result = myData(age, height)
 console.log(result)
+
+// Perceba que o nome da variável é o mesmo dentro e fora da função, isso acontece porque uma constante é tem escopo em bloco, ou seja, se declarada dentro da função, só opera lá dentro.
