@@ -21,10 +21,11 @@ sum(4, 2);
 
 // Funções podem retornar valores
 function myData(age, height) {
-  return result = {
+  const result = {
     age,
     height
   }
+  return result
 }
 
 const age = 25;
